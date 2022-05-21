@@ -50,7 +50,7 @@ $currentUser= $_SESSION['username'];
 	<div class="container">
 		<h3 class="text-center">Private Chat</h3>
 		<p class="welcome">Welcome, <b> <?php echo $_SESSION['username']; ?></b></p>
-		<p class="logout"><a id="exit" href="myAuctions.php">Exit Chat</a></p> 
+		
 		
 	<div class="messaging">
 		<div class="inbox_msg">
