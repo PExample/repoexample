@@ -77,7 +77,6 @@ $currentUser= $_SESSION['username'];
 				{
 					echo "<div class='incoming_msg'>";
 					echo "<p><b>".$r['username']." </b></p>";
-					echo "<div class='incoming_msg_img'><img src='images/users/default-avatar.png' style='max-height: 2.8rem;'></div>";
 					echo "<div class='received_msg'>";
 					echo "<div class='received_withd_msg'>";
 					echo "<p >".$r['message']."</p>";                                      
